@@ -1,3 +1,14 @@
+// Function to start the game, redirects to game.html
+function startGame() {
+    window.location.href = "game.html";
+}
+
+// Add quiz game logic here for game.html
+document.addEventListener('DOMContentLoaded', function() {
+    // Logic for displaying questions, tracking level, etc.
+});
+
+
 let currentLevel = 1;
 let currentQuestion = 0;
 
