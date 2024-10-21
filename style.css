@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b9d7f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .quiz-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .options {
+    margin: 20px 0;
+  }
+  
+  .option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option:hover {
+    background-color: #cccccc;
+  }
+  
+  .correct {
+    background-color: lightgreen;
+  }
+  
+  .wrong {
+    background-color: lightcoral;
+  }
+  
+  .next-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s;
+  }
+  
+  .next-btn:hover {
+    background-color: #0056b3;
+  }
+  /* Additional styles for level title and hint */
+.level-container {
+    margin-bottom: 20px;
+  }
+  
+  .hint {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  img{
+    width: 100px;
+  }
