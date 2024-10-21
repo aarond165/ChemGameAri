@@ -6,9 +6,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-  }
-  
-  .quiz-container {
+}
+
+.quiz-container {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
@@ -16,27 +16,31 @@ body {
     width: 100%;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 2em;
     margin-bottom: 20px;
-  }
-  
-  .question-container {
+}
+
+.level-container {
     margin-bottom: 20px;
-  }
-  
-  .question {
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question {
     font-size: 1.5em;
     margin-bottom: 15px;
-  }
-  
-  .options {
+}
+
+.options {
     margin: 20px 0;
-  }
-  
-  .option {
+}
+
+.option {
     display: block;
     margin: 10px 0;
     padding: 10px;
@@ -44,21 +48,32 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  .option:hover {
+}
+
+.option:hover {
     background-color: #cccccc;
-  }
-  
-  .correct {
+}
+
+.correct {
     background-color: lightgreen;
-  }
-  
-  .wrong {
+}
+
+.wrong {
     background-color: lightcoral;
-  }
-  
-  .next-btn {
+}
+
+.hint {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100px;
+    margin-top: 15px;
+}
+
+.next-btn {
     padding: 10px 20px;
     font-size: 1.2em;
     background-color: #007BFF;
@@ -68,21 +83,8 @@ body {
     cursor: pointer;
     display: none;
     transition: background-color 0.3s;
-  }
-  
-  .next-btn:hover {
+}
+
+.next-btn:hover {
     background-color: #0056b3;
-  }
-  /* Additional styles for level title and hint */
-.level-container {
-    margin-bottom: 20px;
-  }
-  
-  .hint {
-    font-style: italic;
-    color: #777;
-    margin-bottom: 10px;
-  }
-  img{
-    width: 100px;
-  }
+}
